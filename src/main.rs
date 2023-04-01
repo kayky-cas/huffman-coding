@@ -1,3 +1,8 @@
+use tree::Conding;
+mod tree;
+
 fn main() {
-    println!("Hello, world!");
+    let buffer = "sssaaawwwjjjjwjfwufinlkwfuhb3wfuiv3v";
+
+    let coding: Conding = buffer.parse().unwrap();
 }
